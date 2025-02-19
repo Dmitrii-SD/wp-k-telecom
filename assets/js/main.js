@@ -50,3 +50,10 @@ function applyBlurEffect() {
 }
 applyBlurEffect(); 
 
+function clickBtn(){
+    const bannerBtn = document.querySelector(".banner__btn")
+    bannerBtn.addEventListener("click", function(){
+    bannerBtn.textContent = "Кнопка нажата"
+    })
+}   
+clickBtn()
